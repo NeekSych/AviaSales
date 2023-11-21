@@ -1,0 +1,26 @@
+.Notification {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 15px;
+  gap: 15px;
+  box-sizing: border-box;
+
+  &.alert {
+    border: 3px solid #f44336;
+  }
+  &.notify {
+    border: 3px solid #ffc107;
+  }
+
+  .text {
+    text-transform: none;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+  }
+}

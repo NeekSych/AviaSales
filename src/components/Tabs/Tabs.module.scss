@@ -1,0 +1,28 @@
+.Tabs {
+  width: 500px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dfe5ec;
+
+  .tab {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    outline: 1px solid #dfe5ec;
+
+    &.active {
+      color: white;
+      background-color: #2196f3;
+    }
+  }
+}
